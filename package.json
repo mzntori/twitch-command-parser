@@ -1,15 +1,17 @@
 {
   "name": "twitch-command-parser",
   "version": "1.0.0",
+  "author": "mzntori",
   "description": "",
   "main": "index.js",
   "type": "commonjs",
   "readme": "README.md",
   "license": "license.md",
+  "repository": "mzntori/twitch-command-parser",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "private": true,
+  "private": false,
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "babel-jest": "^29.7.0",
