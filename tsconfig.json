@@ -1,9 +1,14 @@
 {
+  "exclude": ["node_modules", "lib", "tests"],
   "compilerOptions": {
-    "target": "es2016",
+    "lib": ["esnext"],
+    "target": "esnext",
     "module": "commonjs",
+    "declaration": true,
     "esModuleInterop": true,
+    "moduleDetection": "force",
     "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",
     "strict": true,
     "skipLibCheck": true
   }

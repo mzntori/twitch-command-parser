@@ -1,5 +1,5 @@
-# Project exclude paths
-/node_modules
-/.idea
+node_modules
+.idea
 src/**/*.js
 tests/**/*.js
+dist
